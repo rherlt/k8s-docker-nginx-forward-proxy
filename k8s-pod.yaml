@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 0-debug-forward-proxy
+spec:
+  containers:
+  - name: 0-debug-forward-proxy
+    image: ghcr.io/rherlt/docker-nginx-forward-proxy:main
+    ports:
+    - containerPort: 80
