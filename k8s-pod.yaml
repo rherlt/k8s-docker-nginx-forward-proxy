@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: 0-debug-forward-proxy
-    image: ghcr.io/rherlt/docker-nginx-forward-proxy:main
+    image: ghcr.io/rherlt/k8s-docker-nginx-forward-proxy:main
     ports:
     - containerPort: 80
